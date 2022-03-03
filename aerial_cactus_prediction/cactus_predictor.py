@@ -228,7 +228,7 @@ for i in range(epoch+1):
         
         print('\ntraining acc: ',acc)
         print('training loss: ',loss.item())
-        print('val acc: ',val_acc)
+        print('val acc: ',val_acc)          #the validation accuracy is 97%
         print('val_loss: ',val_loss)
  
  
