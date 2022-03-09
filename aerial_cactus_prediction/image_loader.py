@@ -2,10 +2,7 @@ import numpy as np
 import pandas as pd
 import os
 import cv2
-import torch
-from torch import nn
-import torch.nn.functional as f
-from torch.autograd import Variable
+
 
 
 class image_loader():
